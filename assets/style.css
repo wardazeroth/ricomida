@@ -1,0 +1,102 @@
+h1 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#pizza {
+    width: 40rem;
+    padding-top: 2rem;
+}
+
+#carouselExample {
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding-bottom: 3rem;
+padding-top: 4rem;
+}
+
+
+.footer1, #enviar {
+    background-color: #DC3545;
+}
+
+#encabezado {
+    padding-top: 4rem;
+}
+
+.navbar-brand {
+    padding-left: 7rem;
+}
+        
+.col-3 img {
+    width: 290px;
+    height: 230px;  
+}
+
+.recetas {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 20px;
+}
+#enviar {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    box-shadow: none; 
+    border: 2px solid #ffff;
+    border-radius: 5px;
+}
+
+#enviarAlert, #boton2 {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    background-color: #ffff;
+    box-shadow: none; 
+    border-radius: 5px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+#enviarAlert {
+    margin-right: 2rem;
+}
+
+.card {
+ margin-bottom: 3rem;
+}
+
+h3 span{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 576px) {
+    #pizza{
+      width: 27rem;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .col-3 img{
+        width: 200px;
+        height: 140px; 
+    }   
+  }
+
+  @media (max-width: 576px) {
+    .footer1, h2, h3{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .comidas {
+        padding-left: 2.5rem;
+    }
+  }
+
