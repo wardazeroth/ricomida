@@ -2,13 +2,13 @@ const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
 function cambiar_titulo1 () {
-    $('#titulo1').addClass('text-danger')
+    $('#titulo1').toggleClass('text-danger')
 }
 
 $('#titulo1').on('dblclick', cambiar_titulo1)
 
 function cambiar_titulo2 () {
-    $('#titulo2').addClass('text-danger')
+    $('#titulo2').toggleClass('text-danger')
 }
 
 $('#titulo2').on('dblclick', cambiar_titulo2)
